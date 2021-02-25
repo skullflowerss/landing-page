@@ -1,0 +1,175 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+body{
+    background-color: #8794C7;
+    color: #5062AA;
+    font-size: 16px;
+    width: 100%;
+}
+
+#header{
+    background-color:#656e94 ;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    position:fixed;
+    top: 0;
+}
+
+#header-img{
+    max-width: 5%;
+    height: auto;
+    margin-left: 5em;
+}
+
+#nav-bar{
+    width: 30%;
+    height: auto;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    margin: 0 2em 0 2em;
+}
+
+.nav-link{
+    display: inline;
+    padding: 0 1em 0 1.5em;
+    font-size: 1.3em;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    color:red;
+}
+
+#form-container{
+    height: auto;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2em;
+    padding-top: 8em;
+}
+
+#form{
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    
+}
+
+#form p{
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+}
+
+input[type="email"]{
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 4px;
+    padding: 10px 10px;
+    border: none;
+}
+
+input[type="submit"]{
+    width: 25%;
+    height:auto;
+    padding: 8px;
+    margin: 10px auto;
+    background-color: rgb(7, 184, 7);
+    border: none;
+    border-radius: 2px;
+    color: white;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.points-container{
+   width: 60%;
+   margin: 4em auto;
+}
+.section-info{
+    display: flex;
+    justify-content: center;
+    margin: 2em 0;
+}
+.section-content{
+    margin: auto 0;
+}
+
+#section-img{
+    max-width: 10%;
+}
+
+#section-title{
+    font-size: 2em;
+    color: white;
+    font-weight: 700;
+}
+#section-description{
+    font-style: italic;
+    color: #35416e;
+    font-size: 1.2em;
+}
+
+#video-container{
+    margin: 3em 0;
+    display: flex;
+    justify-content: center;
+}
+
+#box-section{
+    display: flex;
+    justify-content: center;
+    margin-top: 3em;
+    margin-bottom: 2em;
+}
+
+.box-container{
+    background-color: rgba(255, 248, 220, 0.322);
+    width: 15%;
+    height: auto;
+    border: 1px solid black;
+    text-align: center;
+    margin: 1.5em 2em;
+    line-height: 1.9em;
+}
+.title-box{
+    background-color: cadetblue;
+    padding-top:0.5em;
+    font-size: 1.5em;
+}
+
+.info-box{
+    font-size: 1.2em;
+    margin: 1.5em 0;
+}
+
+#price{
+    font-weight: 700;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.button{
+    background-color: cornflowerblue;
+    width: 30%;
+    height: 26px;
+    margin: 20px auto;
+    font-weight: 700;
+    color: white;
+    cursor: pointer;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    border-radius: 4px;
+}
+
+@media (max-width: 600px){
+    
+}
